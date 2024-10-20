@@ -8,10 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      screens:{
+        xs:"300px",
+        sm:"640px",
+        md:"768px",
+        lg:"1080px",
+        xl:"1280px",
+        ["2xl"]:"1530px"
+
+      }
+      // colors: {
+      //   background: "var(--background)",
+      //   foreground: "var(--foreground)",
+      // },
+      // fontFamily:{
+      //   cursive: ["cursive", "sans"],
+      //   fantasy: ["fantasy", "sans"]
+      // }
     },
   },
   plugins: [],
